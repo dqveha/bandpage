@@ -1,8 +1,9 @@
-.body {
+/* .body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+  width: 100%;
+} */
 
 .logo {
   width: 100%;
@@ -28,7 +29,6 @@
   justify-content: center;
   flex-wrap: nowrap;
 }
-
 
 
 .sidebar {
@@ -76,4 +76,10 @@ p {
 #center {
   display: block;
   margin: auto;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: xx-large;
+  }
 }
